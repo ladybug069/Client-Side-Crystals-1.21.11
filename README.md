@@ -5,6 +5,22 @@ Client-side only, works on all servers, 100% harmless fun.
 
 ---
 
+## How It Works
+
+**Client-Side Crystals** displays a **visual preview** of End Crystals the moment you place them.  
+It is **entirely client-side** and purely visual—**nothing is changed on the server**.  
+No crystals are actually placed by the mod, and it does not affect damage or any gameplay mechanics; real crystals are still handled entirely by vanilla Minecraft and the server.  
+
+When you place a crystal:  
+- A **temporary client-side crystal** appears instantly for a zero-lag placement feel.  
+- Once the server confirms the placement, the **preview is removed** and the real crystal appears.  
+- If placement fails, the **preview times out and disappears** automatically.  
+
+The mod **does not interfere with targeting or interactions**—all inputs pass through the fake crystal so you always interact with the real one.  
+The preview exists purely for **visual clarity and responsiveness**.
+
+---
+
 ## Demo
 
 ![Client-Side Crystals Demo](https://i.ibb.co/RpFJZrp6/1181534f0a9b3541aecfd44424cb0aa8fb301e78.gif)
